@@ -3,7 +3,7 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    background-color: #f0f0f0;
+    background-color:#d1d1d4;
     color: #333;
     line-height: 1.6;
     overflow: auto;
@@ -59,16 +59,6 @@ section p {
     font-size: 1.2em;
 }
 
-section p:nth-child(odd) {
-    font-family: 'Open Sans', sans-serif;
-    color: #555;
-}
-
-section p:nth-child(even) {
-    font-family: 'Lobster', cursive;
-    color: #222;
-}
-
 .gray {
     color: gray;
 }
@@ -81,12 +71,12 @@ section p:nth-child(even) {
     color: gold;
 }
 
-.lyellow {
-    color: #F3E358;
+.orange {
+    color: orange;
 }
 
-.orange {
-    color: orange
+.green {
+    color: green;
 }
 
 audio {
@@ -105,11 +95,3 @@ audio {
     background-color: #333;
 }
 
-.audio-player::-webkit-media-controls-play-button,
-.audio-player::-webkit-media-controls-mute-button,
-.audio-player::-webkit-media-controls-timeline,
-.audio-player::-webkit-media-controls-time-remaining-display,
-.audio-player::-webkit-media-controls-current-time-display,
-.audio-player::-webkit-media-controls-timeline-container {
-    color: #fff;
-}
